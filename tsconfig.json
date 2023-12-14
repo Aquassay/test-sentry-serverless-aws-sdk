@@ -1,0 +1,36 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "rootDir": ".",
+      "sourceMap": true,
+      "declaration": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": false,
+      "resolveJsonModule": true,
+      "noImplicitAny": false,
+      "strict": true,
+      "useDefineForClassFields": false,
+      "target": "ES2022",
+      "module": "commonjs",
+      "lib": [
+        "esnext"
+      ],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "baseUrl": ".",
+    },
+    "exclude": [
+      "node_modules",
+      "tmp"
+    ],
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "types/**/*.d.ts",
+        "../../types/**/*.d.ts"
+    ]
+}
+  

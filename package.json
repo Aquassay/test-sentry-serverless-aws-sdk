@@ -1,0 +1,36 @@
+{
+  "name": "test-sentry-serverless-aws-sdk",
+  "version": "1.0.0",
+  "description": "test sentry with serverless to resolve problems",
+  "main": "index.js",
+  "scripts": {
+    "analyze:without": "sls package --analyze testWithoutSentry",
+    "analyze:with": "sls package --analyze testWithSentry"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aquassay/test-sentry-serverless-aws-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aquassay/test-sentry-serverless-aws-sdk/issues"
+  },
+  "homepage": "https://github.com/Aquassay/test-sentry-serverless-aws-sdk#readme",
+  "devDependencies": {
+    "@aws-sdk/types": "3.468.0",
+    "@types/aws-lambda": "8.10.130",
+    "@types/serverless": "3.12.19",
+    "serverless": "3.38.0",
+    "serverless-analyze-bundle-plugin": "2.0.1",
+    "serverless-esbuild": "1.50.0",
+    "ts-morph": "20.0.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@middy/core": "4.7.0",
+    "@redis/client": "1.5.12",
+    "@sentry/serverless": "7.87.0"
+  }
+}
